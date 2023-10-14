@@ -1,0 +1,156 @@
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+
+  --primary-glow: conic-gradient(
+    from 180deg at 50% 50%,
+    #16abff33 0deg,
+    #0885ff33 55deg,
+    #54d6ff33 120deg,
+    #0071ff33 160deg,
+    transparent 360deg
+  );
+  --secondary-glow: radial-gradient(
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
+
+  --tile-start-rgb: 239, 245, 249;
+  --tile-end-rgb: 228, 232, 233;
+  --tile-border: conic-gradient(
+    #00000080,
+    #00000040,
+    #00000030,
+    #00000020,
+    #00000010,
+    #00000010,
+    #00000080
+  );
+
+  --callout-rgb: 238, 240, 241;
+  --callout-border-rgb: 172, 175, 176;
+  --card-rgb: 180, 185, 188;
+  --card-border-rgb: 131, 134, 135;
+}
+
+// @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:ital,wght@0,100;0,300;0,700;1,100&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+// @import url('https://fonts.googleapis.com/css2? family= PT+Sans+Caption & family= Roboto+Slab:wght@700 & display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&family=Montserrat:wght@300&family=Roboto&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400&family=Montserrat:wght@300&family=Roboto&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400&family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Roboto&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,300&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Montserrat:ital,wght@0,500;1,300&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;500&family=Montserrat:ital,wght@0,500;1,300&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Montserrat:ital,wght@0,500;1,300&family=Open+Sans:wght@600&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Lato:wght@300&family=Montserrat:ital,wght@0,500;1,300&family=Open+Sans:wght@600&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Lato:wght@300;400&family=Montserrat:ital,wght@0,500;1,300&family=Open+Sans:wght@600&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Exo+2:wght@300&family=Lato:wght@300;400&family=Montserrat:ital,wght@0,500;1,300&family=Open+Sans:wght@600&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Exo+2:wght@300&family=Lato:wght@300;400&family=Montserrat:ital,wght@0,500;1,300&family=Open+Sans:wght@600&family=Playfair+Display&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Exo+2:wght@300&family=Lato:wght@300;400&family=Montserrat:ital,wght@0,500;1,300&family=Open+Sans&family=Playfair+Display&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Exo+2:wght@300&family=Langar&family=Lato:wght@300;400&family=Montserrat:ital,wght@0,500;1,300&family=Open+Sans&family=Playfair+Display&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Ubuntu&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;900&family=Ubuntu&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;900&family=Roboto+Slab:wght@500&family=Ubuntu&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+}
+
+header{
+  width: 100%;
+  height: 10vh;
+  background: #222222;
+  display: flex;
+  align-items: center;
+  
+  .title{
+     margin: 20px;
+     font-family: 'Roboto Slab', sans-serif;
+     font-size: 20px;
+     font-weight: 600;
+     color: #fff;
+  }
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  
+  .section1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .titre{
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      margin: 20px;
+    }
+    input{
+      width: 200px;
+      margin-left: 20px;
+      height: 40px;
+      border: 1px solid #f0f2f5;
+      font-family: sans-serif;
+      padding: 10px;
+      margin-bottom: 5px;
+    }
+    .input{
+      width: 300px;
+      border: 1px solid #5555;
+      margin: 20px;
+      padding: 10px;
+      outline: none;
+    }
+    .input::placeholder{
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      color: #bebebe;
+      
+    }
+    .btn{
+      width: 120px;
+      height: 40px;
+      font-family: sans-serif;
+      font-weight: 600;
+      color: #fff;
+      background: teal;
+      margin-top: 5px;
+      margin-left: 20px;
+      border: none;
+    }
+  }
+
+  .article{
+    display: flex;
+    flex-direction: column;
+    h1{
+      font-family: sans-serif;
+      font-weight: 500;
+      margin: 20px;
+    }
+    .infos-empty{
+      margin-left: 20px;
+    }
+  }
+}
+
+
